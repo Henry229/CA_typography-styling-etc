@@ -1,0 +1,41 @@
+h1 {
+  color: rgb(255, 0, 0);
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.75);
+}
+
+p {
+  font-size: 20px;
+  /* font-weight: 700; 400 is default */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p strong {
+  font-size: 1.5em;
+}
+
+.bgimage {
+  width: 200px;
+  height: 150px;
+  color: white;
+  background: url("https://placekeanu.com/500/300") green 25% center no-repeat;
+  background-size: cover;
+  padding: 1rem;
+  border-radius: 1rem 2rem 3rem 4rem;  /*4개를 쓰면 시계방향으로 4구석을 줄 수 있다. */
+  /* box-shadow: 10px 10px 10px rgba(0,0,0,0.75); */
+  box-shadow: 0px 0px 20px rgba(255,0,0,0.75);  /*when giving a Highlight*/
+}
+
+.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 255, 0, 0.438);
+  position: relative;
+  top: -100px;
+  left: 50px;
+  opacity: 0.15;
+}
